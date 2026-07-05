@@ -1,6 +1,6 @@
 # Lộ trình Học Linux & Bash Shell Scripting cho Data Engineer
 
-Hệ điều hành Linux (đặc biệt là Ubuntu) là môi trường vận hành của hầu hết các hệ thống dữ liệu hiện đại, Docker containers và máy chủ Cloud. Thành thạo dòng lệnh Linux và viết kịch bản tự động hóa bằng Bash (Shell Scripting) là kỹ năng bắt buộc đối với mọi Data Engineer.
+Hệ điều hành Linux (đặc biệt là Ubuntu) là môi trường vận hành của hầu hết các hệ thống dữ liệu hiện đại, Docker containers và máy chủ Cloud. Thành thạo dòng lệnh Linux và viết kịch bản tự động hóa bằng Bash (Shell Scripting) kết hợp trình soạn thảo văn bản Vim là kỹ năng bắt buộc đối với mọi Data Engineer.
 
 ---
 
@@ -10,8 +10,9 @@ Hệ điều hành Linux (đặc biệt là Ubuntu) là môi trường vận hà
 graph TD
     A[1. Hệ thống File & Điều hướng CLI] --> B[2. Quyền hạn File & Thư mục]
     B --> C[3. Xử lý & Tìm kiếm Văn bản]
-    C --> D[4. Biến môi trường & Redirecting]
-    D --> E[5. Viết kịch bản tự động hóa Bash Script]
+    C --> D[4. Trình soạn thảo văn bản Vim]
+    D --> E[5. Biến môi trường & Redirecting]
+    E --> F[6. Viết kịch bản tự động hóa Bash Script]
 ```
 
 ---
@@ -42,7 +43,15 @@ graph TD
     *   Bộ lọc và xử lý dòng văn bản cơ bản: `wc` (đếm dòng/từ), `sort` (sắp xếp), `uniq` (lọc trùng).
     *   Đường ống liên kết lệnh: Pipe (`|`) để truyền đầu ra của lệnh này làm đầu vào cho lệnh khác.
 
-### Bước 4: Biến môi trường & Dẫn hướng luồng (Redirection) (Tuần 2 - Ngày 1)
+### Bước 4: Trình soạn thảo văn bản Vim (Tuần 2 - Ngày 1)
+*   **Nội dung:**
+    *   Sự khác nhau giữa các chế độ: Normal Mode (chế độ điều hướng), Insert Mode (chế độ chèn văn bản), Command-line Mode (chế độ dòng lệnh).
+    *   Các lệnh mở file, sửa đổi, sao chép (`yy`), cắt/xóa (`dd`), dán (`p`), tìm kiếm từ khóa (`/`), và thoát lưu (`:wq`) hoặc hủy lưu (`:q!`).
+*   **Tài liệu học tập:**
+    *   Chạy chương trình tự học trực quan bằng lệnh: `vimtutor` trực tiếp trên Terminal Linux.
+    *   [Interactive Vim Tutorial](https://www.openvim.com/)
+
+### Bước 5: Biến môi trường & Dẫn hướng luồng (Redirection) (Tuần 2 - Ngày 2)
 *   **Nội dung:**
     *   Biến môi trường (Environment Variables): Xem với `env` hoặc `printenv`, khai báo tạm thời với `export`, và khai báo vĩnh viễn trong file `.bashrc` / `.zshrc`.
     *   Dẫn hướng luồng dữ liệu (Input/Output Redirection):
@@ -50,11 +59,11 @@ graph TD
         *   Ghi nối tiếp (append) vào cuối file: `>>`
         *   Bắt lỗi stderr và ghi ra file: `2>` hoặc `2>&1`.
 
-### Bước 5: Viết kịch bản tự động hóa Bash Script (Tuần 2 - Ngày 2 đến Tuần 3)
+### Bước 6: Viết kịch bản tự động hóa Bash Script (Tuần 2 - Ngày 3 đến Tuần 3)
 *   **Nội dung:**
     *   Khai báo dòng chỉ thị trình biên dịch (Shebang): `#!/bin/bash`.
     *   Khai báo biến trong Bash, xử lý tham số đầu vào (`$1`, `$2`, `$@`).
     *   Cấu trúc rẽ nhánh `if-else`, vòng lặp `for`, `while`.
     *   Gọi và bắt lỗi từ các lệnh hệ thống.
 *   **Bài tập thực hành:**
-    *   👉 **[Lab 1: Giám sát log và Tự động hóa sao lưu bằng Bash Script](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_1_linux_commands.md)** (Viết kịch bản tự động nén, phân loại và dọn dẹp các tệp tin log cũ).
+    *   👉 **[Lab 1: Giám sát log và Tự động hóa sao lưu bằng Bash Script](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_1_linux_commands.md)** (60 bài tập bao gồm File, Permissions, Grep, Resource, Network và soạn thảo văn bản bằng Vim).
