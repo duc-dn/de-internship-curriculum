@@ -1,6 +1,6 @@
 # Data Engineering Internship Training Roadmap (Software & Python First)
 
-Chào mừng bạn đến với lộ trình đào tạo Data Engineering Intern. Lộ trình này được thiết kế trong vòng **10 tuần**, ưu tiên đào tạo nền tảng **Software Engineering & Python** trước khi đi vào các công nghệ dữ liệu chuyên sâu (SQL, DWH, PySpark, Airflow). Sự thay đổi này giúp Intern có tư duy viết code sạch, dễ bảo trì, biết cách viết tests và tổ chức project chuyên nghiệp.
+Chào mừng bạn đến với lộ trình đào tạo Data Engineering Intern. Lộ trình này được thiết kế trong vòng **10 tuần**, ưu tiên đào tạo nền tảng **Software Engineering, Linux & Python** trước khi đi vào các công nghệ dữ liệu chuyên sâu (SQL, DWH, PySpark, Airflow). Sự thay đổi này giúp Intern có tư duy viết code sạch, dễ bảo trì, biết cách viết tests và tổ chức project chuyên nghiệp.
 
 > [!TIP]
 > 📋 **Quy trình Đào tạo & Giám sát:** Xem hướng dẫn vận hành hàng tuần và tiêu chí đánh giá tại file [quy_trinh.md](file:///Users/ducdn/Desktop/Data%20Engineer/intern/03_data_engineering/quy_trinh.md).  
@@ -15,8 +15,10 @@ gantt
     title Lộ trình Đào tạo Data Engineering Intern (10 Tuần)
     dateFormat  X
     axisFormat %d
+    section Phase 0: Linux & Bash
+    Terminal CLI, Permissions, Scripting :active, 0, 14
     section Phase 1: Software & Python
-    OOP, Clean Code, Testing & Git       :active, 0, 21
+    OOP, Clean Code, Testing & Concurrency :active, 0, 21
     section Phase 2: SQL & Modeling
     Postgres SQL, Star Schema & dbt       : 21, 42
     section Phase 3: Big Data
@@ -26,7 +28,7 @@ gantt
 ```
 
 ### Các cột mốc quan trọng (Milestones):
-*   **Tuần 1:** Hoàn thành [Lab 1 (Python Basics)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_1_basics.md), [Lab 2 (Python Scripting)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_2_json_cleansing.md), và [Lab 1 (Docker Basics)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/02_docker/labs/lab_1_docker_postgres.md).
+*   **Tuần 1:** Hoàn thành [Lab 1 (Linux Basics)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_1_linux_commands.md), [Lab 1 (Python Basics)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_1_basics.md), [Lab 2 (Python Scripting)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_2_json_cleansing.md), và [Lab 1 (Docker Basics)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/02_docker/labs/lab_1_docker_postgres.md).
 *   **Tuần 2:** Hoàn thành [Lab 3 (Python OOP Client)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_3_weather_client.md), [Lab 6 (Generators & Streaming)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_6_memory_generators.md), và [Lab 7 (Decorators & Resilience)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_7_decorators_resilience.md) (yêu cầu slide & thuyết trình).
 *   **Tuần 3:** Hoàn thành [Lab 4 (Pandas & NumPy)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_4_pandas_sales.md) và [Lab 5 (Concurrency)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_5_parallel_processing.md).
 *   **Tuần 5:** Hoàn thành [Lab 2 (Docker Compose & DB Ingestion)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/02_docker/labs/lab_2_compose_stack.md).
@@ -37,6 +39,11 @@ gantt
 ---
 
 ## 🗓️ Chương trình chi tiết từng tuần (Weekly Agenda)
+
+### Giai đoạn 0: Nền tảng Linux & Bash (Tuần 1 - 2, Học song song với Python)
+Mục tiêu: Làm quen với giao diện dòng lệnh, điều khiển hệ thống tệp tin, phân quyền và viết kịch bản tự động hóa đơn giản.
+> *   📘 **Linux Roadmap:** [roadmap.md](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/roadmap.md) (CLI, Permissions, Grep/Find, Redirection, Shell Scripting).
+> *   *Thực hành:* Hoàn thành [Lab 1 (Linux Basics)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_1_linux_commands.md) (Giám sát log lỗi và tự động hóa sao lưu thư mục log).
 
 ### Giai đoạn 1: Nền tảng Python & Docker (Week 1 - 3)
 Mục tiêu: Đạt tư duy viết code của một Software Engineer thực thụ. Biết cách đóng gói ứng dụng bằng Docker, viết code sạch, tổ chức cấu trúc dự án và viết unit tests đầy đủ.

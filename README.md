@@ -1,6 +1,6 @@
 # Data Engineering Internship Curriculum
 
-Chào mừng đến với kho học liệu lộ trình đào tạo **Data Engineering Intern** (10 tuần). Chương trình này được thiết kế nhằm ưu tiên phát triển nền tảng **Software Engineering & Python** trước khi đi sâu vào các công cụ và hạ tầng dữ liệu nâng cao.
+Chào mừng đến với kho học liệu lộ trình đào tạo **Data Engineering Intern** (10 tuần). Chương trình này được thiết kế nhằm ưu tiên phát triển nền tảng **Software Engineering, Linux & Python** trước khi đi sâu vào các công nghệ và hạ tầng dữ liệu nâng cao.
 
 ---
 
@@ -11,8 +11,10 @@ gantt
     title Lộ trình Đào tạo Data Engineering Intern (10 Tuần)
     dateFormat  X
     axisFormat %d
+    section Phase 0: Linux & Bash
+    Terminal CLI, Permissions, Scripting :active, 0, 14
     section Phase 1: Software & Python
-    OOP, Clean Code, Testing & Git       :active, 0, 21
+    OOP, Clean Code, Testing & Concurrency :active, 0, 21
     section Phase 2: SQL & Modeling
     Postgres SQL, Star Schema & dbt       : 21, 42
     section Phase 3: Big Data
@@ -25,8 +27,9 @@ gantt
 
 ## 📂 Cơ cấu Thư mục Giáo trình
 
-Tài liệu được phân chia thành 3 giai đoạn đào tạo chính:
+Tài liệu được phân chia thành các giai đoạn đào tạo:
 
+*   📂 **[00_linux/](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/roadmap.md):** Học song song cùng Python, tập trung vào các câu lệnh hệ thống Linux (Ubuntu), phân quyền file/folder và viết kịch bản tự động hóa Bash Shell.
 *   📂 **[01_python/](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/roadmap.md):** Đào tạo lập trình Python nâng cao (OOP, Clean Code, Pytest Unit Testing, Generators tối ưu bộ nhớ, Custom Decorators chịu lỗi, Concurrency).
 *   📂 **[02_docker/](file:///Users/ducdn/Desktop/Data%20Engineer/intern/02_docker/roadmap.md):** Đóng gói ứng dụng, tối ưu Layer Cache, làm quen với Postgres DB, Port mapping và liên kết multi-container bằng Docker Compose.
 *   📂 **[03_data_engineering/](file:///Users/ducdn/Desktop/Data%20Engineer/intern/03_data_engineering/roadmap.md):** Lộ trình Data Engineering tổng quan, Quy trình sync hàng tuần, Hướng dẫn nộp bài tạo PR, và các bài Lab lớn về dbt, PySpark, Capstone Project (Airflow).
