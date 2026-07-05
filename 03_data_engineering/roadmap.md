@@ -28,8 +28,8 @@ gantt
 ```
 
 ### Các cột mốc quan trọng (Milestones):
-*   **Tuần 1:** Hoàn thành [Lab 1 (Linux Basics)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_1_linux_commands.md), [Lab 1 (Python Basics)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_1_basics.md), [Lab 2 (Python Scripting)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_2_json_cleansing.md), và [Lab 1 (Docker Basics)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/02_docker/labs/lab_1_docker_postgres.md).
-*   **Tuần 2:** Hoàn thành [Lab 3 (Python OOP Client)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_3_weather_client.md), [Lab 6 (Generators & Streaming)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_6_memory_generators.md), và [Lab 7 (Decorators & Resilience)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_7_decorators_resilience.md) (yêu cầu slide & thuyết trình).
+*   **Tuần 1:** Hoàn thành [Lab 1 (Linux Basics)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_1_linux_basics.md), [Lab 1 (Python Basics)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_1_basics.md), [Lab 2 (Python Scripting)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_2_json_cleansing.md), và [Lab 1 (Docker Basics)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/02_docker/labs/lab_1_docker_postgres.md).
+*   **Tuần 2:** Hoàn thành [Lab 2 (Linux Vim)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_2_vim.md), [Lab 3 (Linux SSH)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_3_ssh_networking.md), [Lab 3 (Python OOP Client)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_3_weather_client.md), [Lab 6 (Generators & Streaming)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_6_memory_generators.md), và [Lab 7 (Decorators & Resilience)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_7_decorators_resilience.md) (yêu cầu slide & thuyết trình).
 *   **Tuần 3:** Hoàn thành [Lab 4 (Pandas & NumPy)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_4_pandas_sales.md) và [Lab 5 (Concurrency)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/01_python/labs/lab_5_parallel_processing.md).
 *   **Tuần 5:** Hoàn thành [Lab 2 (Docker Compose & DB Ingestion)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/02_docker/labs/lab_2_compose_stack.md).
 *   **Tuần 6:** Hoàn thành [Lab 1 (dbt Transformation)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/03_data_engineering/labs/lab_1_dbt.md).
@@ -43,7 +43,7 @@ gantt
 ### Giai đoạn 0: Nền tảng Linux & Bash (Tuần 1 - 2, Học song song với Python)
 Mục tiêu: Làm quen với giao diện dòng lệnh, điều khiển hệ thống tệp tin, phân quyền và viết kịch bản tự động hóa đơn giản.
 > *   📘 **Linux Roadmap:** [roadmap.md](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/roadmap.md) (CLI, Permissions, Grep/Find, Redirection, Shell Scripting).
-> *   *Thực hành:* Hoàn thành [Lab 1 (Linux Basics)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_1_linux_commands.md) (Giám sát log lỗi và tự động hóa sao lưu thư mục log).
+> *   *Thực hành:* Hoàn thành [Lab 1 (Linux Basics)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_1_linux_basics.md), [Lab 2 (Linux Vim)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_2_vim.md), và [Lab 3 (Linux SSH)](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_3_ssh_networking.md).
 
 ### Giai đoạn 1: Nền tảng Python & Docker (Week 1 - 3)
 Mục tiêu: Đạt tư duy viết code của một Software Engineer thực thụ. Biết cách đóng gói ứng dụng bằng Docker, viết code sạch, tổ chức cấu trúc dự án và viết unit tests đầy đủ.

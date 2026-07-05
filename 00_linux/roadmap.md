@@ -66,4 +66,6 @@ graph TD
     *   Cấu trúc rẽ nhánh `if-else`, vòng lặp `for`, `while`.
     *   Gọi và bắt lỗi từ các lệnh hệ thống.
 *   **Bài tập thực hành:**
-    *   👉 **[Lab 1: Giám sát log và Tự động hóa sao lưu bằng Bash Script](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_1_linux_commands.md)** (60 bài tập bao gồm File, Permissions, Grep, Resource, Network và soạn thảo văn bản bằng Vim).
+    *   👉 **[Lab 1: Các câu lệnh Linux cơ bản & Giám sát hệ thống](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_1_linux_basics.md)** (40 bài tập về Thư mục, Phân quyền, Lọc văn bản và Tiến trình).
+    *   👉 **[Lab 2: Trình soạn thảo văn bản Vim](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_2_vim.md)** (10 bài tập điều hướng và chỉnh sửa văn bản CLI).
+    *   👉 **[Lab 3: SSH, Mạng & Truyền tải tệp tin từ xa](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_3_ssh_networking.md)** (10 bài tập tải dữ liệu, nén file, và truyền dữ liệu qua SSH/SCP/Rsync).
