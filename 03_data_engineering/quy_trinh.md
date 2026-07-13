@@ -20,7 +20,7 @@ graph TD
 *   **Thời gian:** 30 phút đầu giờ sáng.
 *   **Hoạt động:**
     *   Mentor và Intern cùng duyệt qua tiến độ tuần trước.
-    *   Mentor giải thích tổng quan về khối lượng kiến thức của tuần này (theo [roadmap.md](file:///Users/ducdn/Desktop/Data%20Engineer/intern/03_data_engineering/roadmap.md)).
+    *   Mentor giải thích tổng quan về khối lượng kiến thức của tuần này (theo [roadmap.md](roadmap.md)).
     *   Định hướng các tài liệu cần đọc và làm rõ các yêu cầu kỹ thuật của bài Lab tuần đó.
 
 ### 2. Thứ Ba - Thứ Năm: Tự học & Phát triển (Self-study & Coding)

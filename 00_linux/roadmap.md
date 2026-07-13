@@ -66,6 +66,13 @@ graph TD
     *   Cấu trúc rẽ nhánh `if-else`, vòng lặp `for`, `while`.
     *   Gọi và bắt lỗi từ các lệnh hệ thống.
 *   **Bài tập thực hành:**
-    *   👉 **[Lab 1: Các câu lệnh Linux cơ bản & Giám sát hệ thống](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_1_linux_basics.md)** (40 bài tập về Thư mục, Phân quyền, Lọc văn bản và Tiến trình).
-    *   👉 **[Lab 2: Trình soạn thảo văn bản Vim](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_2_vim.md)** (10 bài tập điều hướng và chỉnh sửa văn bản CLI).
-    *   👉 **[Lab 3: SSH, Mạng & Truyền tải tệp tin từ xa](file:///Users/ducdn/Desktop/Data%20Engineer/intern/00_linux/labs/lab_3_ssh_networking.md)** (10 bài tập tải dữ liệu, nén file, và truyền dữ liệu qua SSH/SCP/Rsync).
+    *   👉 **[Lab 1: Các câu lệnh Linux cơ bản & Giám sát hệ thống](labs/lab_1_linux_basics.md)** (40 bài tập về Thư mục, Phân quyền, Lọc văn bản và Tiến trình).
+    *   👉 **[Lab 2: Trình soạn thảo văn bản Vim](labs/lab_2_vim.md)** (10 bài tập điều hướng và chỉnh sửa văn bản CLI).
+    *   👉 **[Lab 3: SSH, Mạng & Truyền tải tệp tin từ xa](labs/lab_3_ssh_networking.md)** (10 bài tập tải dữ liệu, nén file, và truyền dữ liệu qua SSH/SCP/Rsync).
+
+---
+
+## 🎯 Đánh giá cuối Giai đoạn
+Sau khi hoàn thành các bước tự học và bài thực hành trên, Intern cần chủ động ôn tập và kiểm tra lại kiến thức dựa trên tài liệu checklist:
+*   👉 **[Checklist Kiến thức cần nắm được - Linux & Bash Shell](knowledge_checklist.md)**
+

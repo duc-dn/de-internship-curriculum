@@ -39,7 +39,7 @@ graph TD
     *   Tính chất tạm thời (ephemeral) của container writable layer.
     *   **Docker Volumes:** Lưu dữ liệu bền vững qua Named Volumes và Bind Mounts.
 *   **Bài tập thực hành:**
-    *   👉 **[Lab 1: Docker & PostgreSQL Containerization](file:///Users/ducdn/Desktop/Data%20Engineer/intern/02_docker/labs/lab_1_docker_postgres.md)** (Chạy Postgres container, kiểm tra mất dữ liệu khi xóa container và khắc phục bằng Named Volumes).
+    *   👉 **[Lab 1: Docker & PostgreSQL Containerization](labs/lab_1_docker_postgres.md)** (Chạy Postgres container, kiểm tra mất dữ liệu khi xóa container và khắc phục bằng Named Volumes).
 
 ### Bước 4: Viết Dockerfile & Tối ưu hóa Image (Tuần 2 - Ngày 1 đến Ngày 3)
 *   **Nội dung:**
@@ -54,5 +54,11 @@ graph TD
     *   Khái niệm Compose quản lý multi-container bằng tệp cấu hình `docker-compose.yml`.
     *   Cấu trúc file: services, ports, environment, volumes, networks, depends_on, healthcheck.
     *   Sử dụng biến môi trường từ file `.env` ngoài.
-*   **Bài tập thực hành:**
-    *   👉 **[Lab 2: Containerize Python App & PostgreSQL Stack](file:///Users/ducdn/Desktop/Data%20Engineer/intern/02_docker/labs/lab_2_compose_stack.md)** (Đóng gói Python Weather Client và kết hợp PostgreSQL DB chạy đồng bộ qua Docker Compose).
+    *   👉 **[Lab 2: Containerize Python App & PostgreSQL Stack](labs/lab_2_compose_stack.md)** (Đóng gói Python Weather Client và kết hợp PostgreSQL DB chạy đồng bộ qua Docker Compose).
+
+---
+
+## 🎯 Đánh giá cuối Giai đoạn
+Sau khi hoàn thành các bước tự học và bài thực hành trên, Intern cần chủ động ôn tập và kiểm tra lại kiến thức dựa trên tài liệu checklist:
+*   👉 **[Checklist Kiến thức cần nắm được - Docker & Containerization](knowledge_checklist.md)**
+

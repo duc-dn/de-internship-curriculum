@@ -27,6 +27,9 @@ de-internship-2026/             # Thư mục gốc của Git Repository
 │   ├── lab_2_spark/            # Xử lý dữ liệu lớn PySpark
 │   └── lab_3_capstone/         # Dự án Capstone tích hợp Airflow
 │
+├── 04_minio_labs/              # [NEW] Các bài tập giai đoạn Object Storage
+│   └── lab_1_csv_to_minio/     # Đọc CSV & upload lên MinIO
+│
 ├── .gitignore                  # Bắt buộc loại bỏ .venv, logs, database volumes
 └── README.md                   # Hướng dẫn tổng quan cách cài đặt & chạy
 ```

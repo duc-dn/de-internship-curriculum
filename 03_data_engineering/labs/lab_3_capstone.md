@@ -49,7 +49,7 @@ graph TD
 ## 📥 Định nghĩa đầu ra & Sản phẩm bàn giao (Expected Outputs & Deliverables)
 
 ### 1. Mã nguồn Git Repository
-Toàn bộ mã nguồn được tổ chức sạch sẽ trong thư mục theo đúng cấu trúc Mono-repo đề xuất tại [quy_trinh.md](file:///Users/ducdn/Desktop/Data%20Engineer/intern/03_data_engineering/quy_trinh.md).
+Toàn bộ mã nguồn được tổ chức sạch sẽ trong thư mục theo đúng cấu trúc Mono-repo đề xuất tại [quy_trinh.md](../quy_trinh.md).
 
 ### 2. File cấu hình Docker Compose chính
 File `docker-compose.yml` khởi chạy toàn bộ dịch vụ (Airflow Webserver, Airflow Scheduler, PostgreSQL Metadata & DWH, Spark local) chạy thành công chỉ với 1 lệnh:
