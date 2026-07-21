@@ -4,7 +4,7 @@ Chào mừng bạn đến với lộ trình đào tạo Data Engineering Intern.
 
 > [!TIP]
 > 📋 **Quy trình Đào tạo & Giám sát:** Xem hướng dẫn vận hành hàng tuần và tiêu chí đánh giá tại file [quy_trinh.md](quy_trinh.md).  
-> 🚀 **Hướng dẫn Nộp bài & Tạo PR:** Xem quy trình tạo thư mục, chạy thử, chụp ảnh kết quả và gửi PR tại file [huong_dan_nop_bai.md](huong_dan_nop_bai.md).
+> 🚀 **Hướng dẫn Nộp bài & Tạo PR:** Xem quy trình tạo thư mục, chạy thử, chụp ảnh kết quả và gửi PR tại file [HUONG_DAN_NOP_BAI.md](../HUONG_DAN_NOP_BAI.md).
 
 ---
 

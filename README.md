@@ -39,6 +39,6 @@ Tài liệu được phân chia thành các giai đoạn đào tạo:
 
 ## 🚀 Hướng dẫn nhanh cho Intern & Mentor
 
-1.  **Intern:** Hãy bắt đầu đọc tài liệu **[Quy trình Đào tạo](03_data_engineering/quy_trinh.md)** và **[Hướng dẫn Nộp bài & Gửi PR](03_data_engineering/huong_dan_nop_bai.md)** để nắm rõ cách tạo nhánh Git và chuẩn bị ảnh minh chứng chạy kết quả.
+1.  **Intern:** Hãy bắt đầu đọc tài liệu **[Quy trình Đào tạo](03_data_engineering/quy_trinh.md)** và **[Hướng dẫn Nộp bài & Gửi PR](HUONG_DAN_NOP_BAI.md)** để nắm rõ cách tạo nhánh Git và chuẩn bị ảnh minh chứng chạy kết quả.
 2.  **Học tập hàng tuần:** Duyệt qua roadmap của từng giai đoạn và thực hành các bài Lab theo thứ tự tăng dần từ dễ đến khó trong thư mục `labs/` của mỗi phần.
 3.  **Mentor:** Thực hiện code review trên Pull Request của Intern dựa trên các **Tiêu chí đánh giá** có sẵn ở cuối mỗi bài Lab.
